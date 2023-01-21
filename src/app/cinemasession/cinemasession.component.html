@@ -1,9 +1,11 @@
 <iframe 
-    src="http://192.168.1.20:8000/video_file/yolo" 
+    id="video"
+    src="https://mustafalou.com/api/video_file/yolo" 
     frameborder="0" 
     allow="autoplay; encrypted-media" 
     allowfullscreen
-    width="1920px"
-    height="1080"
-    >
+    width="720px"
+    height="480px"
+    (click)="sendMessage()"
+>
 </iframe>
