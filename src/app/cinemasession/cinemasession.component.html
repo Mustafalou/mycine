@@ -1,11 +1,10 @@
 <iframe 
     id="video"
-    src="https://mustafalou.com/api/video_file/yolo" 
+    [src]="safeUrl"
     frameborder="0" 
     allow="autoplay; encrypted-media" 
     allowfullscreen
     width="720px"
     height="480px"
-    (click)="sendMessage()"
 >
 </iframe>
